@@ -1,0 +1,85 @@
+/* firstTab.css */
+body {
+    /* background-color: #208c14;
+    background-color: #ffbf36; */
+    background-color: #ffebbd;
+}
+h1 {
+    color:#ffbf00;
+    background-color:#04c4c7;
+    font-size: 275%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+}
+h2, h3, h4 {
+    color:#ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 175%;
+}
+h2 {
+    background-color:#4e21ff;
+}
+h3 {
+        background-color:#fff82b;
+}
+h4 {
+    background-color: #00b000;
+}
+
+div {
+    border: thin solid #000000;
+}
+p {
+    color: #0020d6;
+    font-family: "Times New Roman", Times, serif;
+}
+p.odd {
+    color:#06d19e;
+    font-style: italic;
+    font-weight: bold;
+}
+p.big {
+    font-size: 125%;
+}
+p.bigger {
+    font-size: 150%;
+}
+p > span {
+    background-color: #888888;
+  }
+p.intro {
+    font-style: italic;
+    background-color:#ffffff;
+    max-width: 768px;
+}
+p#caption_picture1 {
+    font-size: 75%;
+    max-width: 768px;
+  }
+p#caption_picture2 {
+    font-size: 75%;
+    max-width: 1200px;
+}
+p#caption_picture3 {
+    font-size: 75%;
+
+}
+a:link {
+    color: #7c0085;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+a:visited {
+    font-style: italic;
+    /*color: #888888;*/
+    color: #7c0085;
+}
+li:hover {
+    background: #ebff0f;
+}
+li:active {
+    background:#ff0f9f;
+    color: #ebff0f;
+}

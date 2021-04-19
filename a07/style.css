@@ -1,0 +1,36 @@
+body {
+    background-color: #A0A0A0; 
+}
+
+h1.title {
+color: #404040;
+font-weight: bold;
+font-size: 100px;
+font-size: 150%;
+}
+h1.scorer {
+    color: #404040;
+    font-weight: bold;
+    font-size: 100px;
+    font-size: 150%;
+    }
+h1.game_score {
+        color: #404040;
+        font-weight: bold;
+        font-size: 100px;
+        font-size: 100%;
+        }
+.grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 10px;
+        }
+          
+.grid-cell {
+       
+        border: 1px solid #000000;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        }
+                
